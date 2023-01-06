@@ -4,3 +4,4 @@ function classSelector() {
   }
   
   console.log(classSelector());
+  module.export = classSelector;
