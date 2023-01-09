@@ -1,6 +1,6 @@
 function tagSelector() {
-    return document.querySelector('button');
-  }
-console.log(tagSelector());
-console.log(tagSelector().innerHTML);
-module.export = tagSelector;
+  let buttonElement = document.querySelector('button');
+  return buttonElement.innerHTML;
+}
+
+module.exports = tagSelector;
