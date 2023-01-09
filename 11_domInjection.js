@@ -1,7 +1,8 @@
-function addHelloWorld(content) {
-    let div = document.getElementById(content);
-    let p = document.createElement('p');
-    p.textContent = "Hello world";
-    div.appendChild(p);
+function insertHelloWorld(parent) {
+    var p = document.createElement("p");
+    p.innerText = "Hello World";
+    parent.insertBefore(p, target.firstChild);
   }
-  addHelloWorld('content');
+  var content = document.getElementById("content");
+  insertHelloWorld(content);
+  
