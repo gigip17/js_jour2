@@ -4,4 +4,4 @@ function getFirstMenuItemContent() {
     return firstMenuItem.innerHTML;
   }
   console.log(getFirstMenuItemContent());
-  module.export = getFirstMenuItemContent
+module.exports = getFirstMenuItemContent;

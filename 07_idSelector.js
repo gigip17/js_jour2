@@ -3,4 +3,4 @@ function getInputValue() {
       return inputElement.value;
   }
 console.log(getInputValue());
-module.export = getInputValue;
+module.exports = getInputValue;
