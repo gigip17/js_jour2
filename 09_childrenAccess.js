@@ -1,6 +1,7 @@
-function childrenAcess() {
-    let firstItem = document.getElementById("menu").children[0];
-    return firstItem.innerHTML;
+function getFirstMenuItemContent() {
+    var menuList = document.getElementById("menu");
+    var firstMenuItem = menuList.firstElementChild;
+    return firstMenuItem.innerHTML;
   }
-  console.log(childrenAcess());
-  module.export=childrenAcess
+  console.log(getFirstMenuItemContent());
+//   module.export=childrenAcess
