@@ -4,4 +4,4 @@ function getFirstMenuItemContent() {
     return firstMenuItem.innerHTML;
   }
   console.log(getFirstMenuItemContent());
-//   module.export=childrenAcess
+  module.export = getFirstMenuItemContent
