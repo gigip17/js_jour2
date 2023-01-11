@@ -1,0 +1,2 @@
+créez un carré de 50px sur 50px en html (aidez vous de backgroundColor pour la visualisation), ce carré possèdera une position: absolute, ce carré possédera l’id “square”
+déplacer le carré de 10px dans la direction donné par les touches du clavier (haut bas gauche droite)
