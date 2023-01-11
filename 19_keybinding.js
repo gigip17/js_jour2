@@ -25,5 +25,5 @@ document.onkeydown = function(event){
     }
     // Et enfin on applique les modifications :
     s.left = String(i)+'px';
-    s.top = String(j)+'px';
+    s.top = parseInt(j) + 'px';;
 }
