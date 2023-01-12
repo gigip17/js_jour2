@@ -2,13 +2,13 @@
 // déplacer le carré de 10px dans la direction donné par les touches du clavier (haut bas gauche droite)
 var cadre = document.getElementById('square'),
     s = cadre.style, // Un petit raccourci
-    i = cadre.offsetLeft, // On récupère la position absolue initiale.
+    i = cadre.offsetLeft, // On récupère la position a gauche et en haut
     j = cadre.offsetTop;
 document.onkeydown = function(event){
     var event = event || window.event,
         keyCode = event.keyCode;
      
-    // On détecte l'événement puis selon la fleche, on incrémente ou décrément les variables globales de position, i et j.
+    // 38 ect c'est le num des touches 
     switch(keyCode){
         case 38:
             j-=10;
@@ -23,7 +23,7 @@ document.onkeydown = function(event){
             i+=10;
             break;
     }
-    // Et enfin on applique les modifications :
+    
     s.left = String(i)+'px';
     s.top = parseInt(j) + 'px';;
 }
