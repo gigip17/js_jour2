@@ -9,5 +9,5 @@ const sleepThrow = (milliseconds, success) => {
     }, milliseconds)
     })
     }
-    
+module.exports = sleepThrow
     
